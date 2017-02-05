@@ -2,7 +2,37 @@
    Author's custom styles
    ========================================================================== */
 
-#map-container { height: 180px; }
+#map-container { height: 350px; }
+
+h1#home {
+	text-align: center;
+}
+
+
+
+body,
+.jumbotron {
+
+	background: -webkit-linear-gradient(to left,#2d4c60, #46545e);
+	background: linear-gradient(to left,#2d4c60, #46545e);
+  color: #a59898;
+}
+
+.carousel img {
+  width:100% ;
+  min-width:100 ;
+  height: auto;
+}
+
+.carousel-caption {
+	position: absolute;
+	background: #56a4d8;
+	padding: 5px;
+	bottom: 0;
+  text-align: center;
+  
+}
+
 
 
 
