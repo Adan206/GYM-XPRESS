@@ -21,10 +21,12 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
         <link rel="stylesheet" href="css/main.css">
-
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
-      
+        
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -66,6 +68,7 @@
         <h1 id="home">Mt. Ranier Information</h1>
         <!-- TODO: Create an HTML structure that will trigger the Bootstrap
                    carousel feature. http://getbootstrap.com/javascript/#carousel
+
                    Bonus points if you go to the trouble of making nice captions
                    for the images. If you are using the Mt. Rainier images, then
                    there are readymade captions available from the Wikipedia
@@ -88,13 +91,13 @@
       </div>
     </div>
     <div class="item">
-      <img src="img/carousel/Mount_Rainier_-_Paradise_Meadow_in_July_03.jpg" alt="...">
+      <img src="/img/carousel/Mount_Rainier_-_Paradise_Meadow_in_July_03.jpg" alt="...">
       <div class="carousel-caption">
         Annual snow fight in JULY!
       </div>
     </div>
      <div class="item">
-      <img src="img/carousel/Nisqually_River_near_Cougar_Rock_01.jpg" alt="...">
+      <img src="/img/carousel/Nisqually_River_near_Cougar_Rock_01.jpg" alt="...">
       <div class="carousel-caption">
         River near Cougar Rock
       </div>
@@ -130,6 +133,7 @@
       <div id="about" role="tabpanel">
       <!-- Create the HTML structure to trigger the Bootstrap tabs feature:
             http://getbootstrap.com/javascript/#tabs
+
             You will need to add HTML structure to show each of the divs below
             as a unique tab. -->
 
@@ -137,9 +141,9 @@
 
   <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#description" aria-controls="description" role="tab" data-toggle="tab">Description</a></li>
-    <li role="presentation"><a href="#history" aria-controls="history" role="tab" data-toggle="tab">History</a></li>
-    <li role="presentation"><a href="#stats" aria-controls="stats" role="tab" data-toggle="tab">Stats</a></li>
+    <li role="presentation" class="active"><a id="description-tab" href="#description" aria-controls="description" role="tab" data-toggle="tab">Description</a></li>
+    <li role="presentation"><a id="history-tab" href="#history" aria-controls="history" role="tab" data-toggle="tab">History</a></li>
+    <li role="presentation"><a id="stats-tab" href="#stats" aria-controls="stats" role="tab" data-toggle="tab">Stats</a></li>
    
   </ul>
 
@@ -230,10 +234,11 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
 
         <script src="js/main.js"></script>
 
 
     </body>
 </html>
+
