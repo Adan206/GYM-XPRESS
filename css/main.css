@@ -2,11 +2,15 @@
    Author's custom styles
    ========================================================================== */
 
+
+
 #map-container { height: 350px; }
 
 h1#home {
 	text-align: center;
 }
+
+
 
 
 
@@ -32,8 +36,6 @@ body,
   text-align: center;
   
 }
-
-
 
 
 
