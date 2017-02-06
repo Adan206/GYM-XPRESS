@@ -1,3 +1,4 @@
+
 /* Begin by adding your on ready handler here, and then create the
    rest of your functions inside the on ready handler.
 
@@ -56,7 +57,7 @@ var MNP = L.marker([46.8800, -121.7269]).bindPopup("Mount Rainier National Park"
 
 var IntLoc = L.layerGroup([ MNP, NP, SRT, CM ]);
 	
-var overlayMaps = {
+var oMaps = {
 	"IntLoc": IntLoc
 };
 
@@ -67,7 +68,7 @@ var myMap = L.map('map-container', {
 	layers: [satMap, IntLoc ]
 });
 
-L.control.layers(myMaps, overlayMaps ).addTo(myMap);
+L.control.layers(myMaps, oMaps ).addTo(myMap);
  
 
 //stretch goals, use eventTrigger to properly link the tab links
@@ -82,20 +83,20 @@ L.control.layers(myMaps, overlayMaps ).addTo(myMap);
   
     if ($(eventTrigger).is(".description-btn")){
 
-     $('#description-tab').tab('show');
+     $('#descriptionTAB').tab('show');
       
     } else if($(eventTrigger).is(".history-btn")){
-       $('#history-tab').tab('show');
+       $('#historyTAB').tab('show');
       
     }else{
-      $('#stats-tab').tab('show');
+      $('#statsTAB').tab('show');
     }
     
 });
 
    
    
- 
+
  
  
  
@@ -104,5 +105,4 @@ L.control.layers(myMaps, overlayMaps ).addTo(myMap);
  
  
  });
-
 
