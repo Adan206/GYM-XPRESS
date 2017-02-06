@@ -50,9 +50,9 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#description">Description</a></li>
-                <li><a href="#history">History</a></li>
-                <li><a href="#stats">Stats</a></li>
+                <li><a class="description-btn clickBtn" href="#about">Description</a></li>
+                <li><a class="history-btn clickBtn" href="#about">History</a></li>
+                <li><a class="stats-btn clickBtn" href="#about">Stats</a></li>
               </ul>
             </li>
             <li><a href="#map">Map</a></li>
@@ -91,13 +91,13 @@
       </div>
     </div>
     <div class="item">
-      <img src="img/carousel/Mount_Rainier_-_Paradise_Meadow_in_July_03.jpg" alt="...">
+      <img src="/img/carousel/Mount_Rainier_-_Paradise_Meadow_in_July_03.jpg" alt="...">
       <div class="carousel-caption">
         Annual snow fight in JULY!
       </div>
     </div>
      <div class="item">
-      <img src="img/carousel/Nisqually_River_near_Cougar_Rock_01.jpg" alt="...">
+      <img src="/img/carousel/Nisqually_River_near_Cougar_Rock_01.jpg" alt="...">
       <div class="carousel-caption">
         River near Cougar Rock
       </div>
@@ -141,14 +141,14 @@
 
   <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a id="description-tab" href="#description" aria-controls="description" role="tab" data-toggle="tab">Description</a></li>
-    <li role="presentation"><a id="history-tab" href="#history" aria-controls="history" role="tab" data-toggle="tab">History</a></li>
-    <li role="presentation"><a id="stats-tab" href="#stats" aria-controls="stats" role="tab" data-toggle="tab">Stats</a></li>
+    <li role="presentation" class="active"><a id="descriptionTAB" href="#description" aria-controls="description" role="tab" data-toggle="tab">Description</a></li>
+    <li role="presentation"><a id="historyTAB" href="#history" aria-controls="history" role="tab" data-toggle="tab">History</a></li>
+    <li role="presentation"><a id="statsTAB" href="#stats" aria-controls="stats" role="tab" data-toggle="tab">Stats</a></li>
    
   </ul>
 
   <!-- Tab panes -->
-  <div class="tab-content">
+  <div class="tab-content" id = "about">
     <div role="tabpanel" class="tab-pane active" id="description">
     <div id="description">
           <h2>About</h2>
@@ -171,7 +171,7 @@
     
     </div>
     <div role="tabpanel" class="tab-pane" id="stats">
-     <div id="stats">
+    
           <!-- TODO: Use CSS to enhance the look of these statistics. Feel free to
                       enhance the HTML if you need to. -->
           <h2>Statistics</h2>
@@ -193,7 +193,7 @@
             <dt>Easiest Route</dt>
             <dd>Rock/ice climb via Disappointment Cleaver</dd>
           </dl>
-        </div>
+       
 
       </div>
     
@@ -241,4 +241,6 @@
 
     </body>
 </html>
+
+
 
