@@ -62,7 +62,7 @@ var overlayMaps = {
 
 //var mymap = L.map('map-container').setView([46.85, -121.78], 10);
 var myMap = L.map('map-container', {
-	center: [47.474005, -122.268628],
+	center: [-122.284, 47.475],
 	zoom: 10,
 	layers: [satMap, IntLoc ]
 });
