@@ -13,7 +13,7 @@
 // tiles served through the MapQuest CDN. Consult this example to set up
 // the map tiles layers:
 	 
-var satMap = L.tileLayer( 'https://api.mapbox.com/styles/v1/adan206/ciymd5pg900372skuzqah5sch/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWRhbjIwNiIsImEiOiJjaXltY3RnenUwMDA0NDRwZjVmZWpva3ViIn0.WUxuHhqpda4t7xPQ_m73Dg', {
+var satMap = L.tileLayer( 'https://api.mapbox.com/styles/v1/adan206/cj0091hr9006t2rplxnp57yoo/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWRhbjIwNiIsImEiOiJjaXltY3RnenUwMDA0NDRwZjVmZWpva3ViIn0.WUxuHhqpda4t7xPQ_m73Dg', {
   
  Attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
  
@@ -21,7 +21,7 @@ var satMap = L.tileLayer( 'https://api.mapbox.com/styles/v1/adan206/ciymd5pg9003
   
   });
    
- brightMap = L.tileLayer ('https://api.mapbox.com/styles/v1/adan206/ciys4fzxo00072rmafnqpzd9j/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWRhbjIwNiIsImEiOiJjaXltY3RnenUwMDA0NDRwZjVmZWpva3ViIn0.WUxuHhqpda4t7xPQ_m73Dg', {
+ brightMap = L.tileLayer ('https://api.mapbox.com/styles/v1/adan206/cj0091hr9006t2rplxnp57yoo/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWRhbjIwNiIsImEiOiJjaXltY3RnenUwMDA0NDRwZjVmZWpva3ViIn0.WUxuHhqpda4t7xPQ_m73Dg', {
    
   Attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
  
@@ -29,7 +29,7 @@ var satMap = L.tileLayer( 'https://api.mapbox.com/styles/v1/adan206/ciymd5pg9003
    
  });
    
- streetMap = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWRhbjIwNiIsImEiOiJjaXltY3RnenUwMDA0NDRwZjVmZWpva3ViIn0.WUxuHhqpda4t7xPQ_m73Dg', {
+ streetMap = L.tileLayer('https://api.mapbox.com/styles/v1/adan206/cj0091hr9006t2rplxnp57yoo/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWRhbjIwNiIsImEiOiJjaXltY3RnenUwMDA0NDRwZjVmZWpva3ViIn0.WUxuHhqpda4t7xPQ_m73Dg', {
    
  Attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
  
