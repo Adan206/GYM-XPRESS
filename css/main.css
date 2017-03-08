@@ -23,6 +23,7 @@ body,
 	background: -webkit-linear-gradient(to left,#2d4c60, #46545e);
 	background: linear-gradient(to left,#2d4c60, #46545e);
   color: #a59898;
+   width: 60em;
   
 }
 
@@ -129,7 +130,7 @@ ul.social li img {
   padding: 20px 50px;
 }
 
-@media screen and (max-width: 478px) {
+@media screen and (max-width: 650px) {
 	body {
 		position: absolute;
 	}
