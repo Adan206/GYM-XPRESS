@@ -26,6 +26,10 @@ body,
   
 }
 
+body {
+	font-size: 100%;
+}
+
 /*
 body {
 	background: #f0f0f0;
