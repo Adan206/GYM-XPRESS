@@ -63,12 +63,12 @@ var oMaps = {
 
 //var mymap = L.map('map-container').setView([46.85, -121.78], 10);
 var myMap = L.map('map-container', {
-	center: [46.85, -121.78],
+	center: [47.4745, -122.2861],
 	zoom: 10,
-	layers: [satMap, IntLoc ]
+	layers: [satMap ]
 });
 
-L.control.layers(myMaps, oMaps ).addTo(myMap);
+L.control.layers(myMaps ).addTo(myMap);
  
 
 //stretch goals, use eventTrigger to properly link the tab links
