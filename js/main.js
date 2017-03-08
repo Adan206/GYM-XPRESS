@@ -83,13 +83,13 @@ L.control.layers(myMaps ).addTo(myMap);
   
     if ($(eventTrigger).is(".description-btn")){
 
-     $('#descriptionTAB').tab('show');
+     $('#FeaturesTAB').tab('show');
       
     } else if($(eventTrigger).is(".history-btn")){
-       $('#historyTAB').tab('show');
+       $('#PremisesTAB').tab('show');
       
     }else{
-      $('#statsTAB').tab('show');
+      $('#ScheduleTAB').tab('show');
     }
     
 });
