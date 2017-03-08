@@ -7,22 +7,6 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 h1#home {
 	text-align: center;
 }
@@ -130,6 +114,13 @@ ul.social li img {
   color: white;
   padding: 20px 50px;
 }
+
+@media screen and (max-width: 478px) {
+	body {
+		position: absolute;
+	}
+}
+
 
 
 
