@@ -1,8 +1,8 @@
 
 
-African-Clothing-Express
+GYM-XPRESS
 
-African Clothing Express is a website that sells imported traditional clothing from various countries. The store is located in the heart of Tukwila, WA where a large community of African immigrants reside. The website should be easy on the eyes, simple to navigate and provide many pictures accompanied with caption and perhaps place of origin.
+GYM-XPRESS is a website that promotes a new type of hassle-free small gym. The GYM is located in the heart of Tukwila, WA where a large population. The website should be easy on the eyes, simple to navigate and provide many pictures accompanied with caption.
 
 The concept will meet these technical requirements:
 
