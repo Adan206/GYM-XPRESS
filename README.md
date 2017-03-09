@@ -1,27 +1,17 @@
-# wats1020-add-a-map
-This assignment asks students to "add a map to it"! Using the Leaflet.js library, we will combine jQuery, Bootstrap and Leaflet to make an elegant, interactive information page for a geographical location.
-
-**NOTE:** This project comes stocked with images and text to allow you to build a page about Mt. Rainier. If you wish to stretch your creative muscles a bit more, you are free to pick a different geographical location to build your page about. You are responsible for filling in comparable information and imagery about your chosen location, and you are encouraged to use media that is either properly licensed or that you own.
-
-## Basic Requirements
-In order to successfully complete this assignment, you will need to fulfill the following requirements:
-
-* Take care of all the TODOs listed in the `index.html` file and the `js/main.js` file. (If you get stuck on the Leaflet.js implementation, you should consult the `js/example-leaflet.js` file.)
-* Add a carousel of images rotating to the top of the page as indicated in the `index.html` file.
-* Add a tabbed information display to the **About** section as indicated in the `index.html` file.
-* Enhance the styling as indicated in several places throughout the `index.html` file.
-* Add a map to the **Map** section as indicated in the `index.html` and `js/main.js` files.
-
-**NOTE:** You can refer to the `target_layout_wireframe.png` file in the root of this repository to help clarify the goal layout we are trying to create. 
-
-## Stretch Goals
-If you wish to extend or enhance your experience this week, try going for one or more of the following goals:
-
-* Add more functionality to your map -- popup layers, draw a trail, mark interesting zones, etc.
-* Make your map (and entire page) mobile friendly so it looks great on iPhone (be sure to mention if you've done this so I definitely view it on a mobile device when grading).
-* Use Bootstrap's `affix` feature to make the top navigation stick to the top of the page as you scroll.
-* Create a "smooth scroll" effect using jQuery so when a user clicks the navigation they are smoothly transported to the proper place on the page.
-* Make great use of icons (`glyphicons`) you have available through Bootstrap (or add FontAwesome if you need more).
-* Make everything a lot more beautiful with your own design concept.
 
 
+African-Clothing-Express
+
+African Clothing Express is a website that sells imported traditional clothing from various countries. The store is located in the heart of Tukwila, WA where a large community of African immigrants reside. The website should be easy on the eyes, simple to navigate and provide many pictures accompanied with caption and perhaps place of origin.
+
+The concept will meet these technical requirements:
+
+1) jQuery to assist with base dom manipulation and programming.
+
+2) Bootstrap to assist with some aspect of visual presentation and/or visual effects
+
+3) Leaflet.js, some JS components for Flickr or Twitter, or a completely custom API request/feature that you create using "ajax()" or "getJSON()" methods.
+
+4) event listener to respond to a user's click. (This could be doing a show/hide on content, simulating a login, triggering an animation, etc.)
+
+5) Your design and layout must be responsive for the four common sizes of screen: sm, md, lg, xl.
