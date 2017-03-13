@@ -118,8 +118,10 @@ ul.social li img {
 }
 
 
-
-
+@media screen and (max-width: 478px) {
+	body {
+		position: absolute;
+	}
 
 
 
